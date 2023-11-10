@@ -1,0 +1,113 @@
+:root {
+  --blue: #25406e;
+  --red: #973e47;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+#container {
+  background-color: white;
+  width: 1100px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  margin-top: 20px;
+  background-color: white;
+}
+
+#logoL {
+  float: left;
+  width: 25%;
+  background-color: white;
+}
+
+#logoL img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+#logoR {
+  float: left;
+  width: 75%;
+}
+
+#logoR1 {
+  color: var(--blue);
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#logoR2 {
+  color: var(--red);
+  font-size: 35px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#nav {
+  background-color: var(--blue);
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  /* border: 3px solid black; */
+}
+
+#options {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  width: 80%;
+  /* background-color: red; */
+  margin: auto;
+}
+
+.option {
+  float: left;
+  width: calc(25% - 2px);
+  padding: 10px 0;
+  border-right: 1px dashed white;
+}
+
+.option a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.option:hover {
+  background-color: var(--red);
+  cursor: pointer;
+}
+
+.option:first-child {
+  border-left: 1px dashed white;
+}
+
+#content {
+  margin-top: 20px;
+  background-color: white;
+  padding: 30px;
+  min-height: 400px;
+  /* margin-top: 20px; */
+}
+
+#footer {
+  margin-top: 20px;
+  background-color: var(--red);
+  color: white;
+  /* margin-top: 20px; */
+  padding: 5px 0;
+  font-size: 16px;
+  text-align: center;
+}

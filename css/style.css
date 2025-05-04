@@ -1,0 +1,135 @@
+/* img {
+  width: 200px;
+  height: 200px;
+} */
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sign-turn-right {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.nav-item:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.fontStyle1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+}
+
+.fontStyle2 {
+  font-family: 'Manrope', sans-serif;
+}
+
+.fontStyle3 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 22px;
+}
+
+.font-style-phone-number {
+  font-family: 'Manrope', sans-serif;
+  font-size: 32px;
+}
+
+.compact {
+  line-height: 1.5em
+}
+
+#call-button {
+  text-decoration: none ;
+  color: white !important; 
+  background-color: #212529;
+
+}
+
+a.customNav {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 24%;
+  text-align: center;
+  border-right: 1px solid #e55c69;
+  padding: 14px 18px;
+  font-size: 1.25rem;
+}
+
+a.active,
+a.customNav:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: transparent
+}
+
+#logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+@media screen and (min-width:797px) {
+  #bottomNavbar.collapse {
+    display: block
+  }
+}
+
+@media screen and (max-width:796px) {
+
+  #sign-turn-right {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  #bottomNavbar {
+    padding: 14px;
+  }
+
+  .fontStyle1 {
+    font-size: 20px;
+  }
+
+  .fontStyle2 {
+    font-size: 15px !important
+  }
+
+  .fontStyle3 {
+    font-size: 13px !important
+  }
+
+  .font-style-phone-number {
+    font-size: 14px !important;
+  }
+
+  #logo {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+
+  #bottomNavbar a.customNav {
+    display: block !important;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 1rem;
+  }
+
+  #removeFlex {
+    display: block !important;
+    text-align: center
+  }
+}

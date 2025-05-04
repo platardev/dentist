@@ -1,50 +1,125 @@
 <!DOCTYPE html>
-<html lang="pl">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<!-- Developed by Siva Kishore G-->
+<html lang="en">
 
-    <title>Stomatologia</title>
-    <meta name="description" content="Blog o skokach narciarskich" />
-    <meta name="keywords" content="skoki narciarskie, skoczkowie, wyniki" />
-    <meta name="author" content="Jan Kowalski" />
-    <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/static_files/images/favicon.png" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext"
-      rel="stylesheet"
-    />
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dd5559ee21.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
 
-  <body>
-    <div id="container">
-      <div id="logo">
-        <div id="logoL">
-          <img src="img/logo.png" alt="" />
+    <title>Stomatologia - Ciesielski & Łaszkiewicz</title>
+    <meta name="description" content="Stomatologia - Ciesielski & Łaszkiewicz">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="container bg-light">
+        <div class="container-fluid">
+            <div class='d-flex justify-content-between align-items-center'>
+                <div class="p-2"><a class="navbar-brand" href="#"><img class="img-fluid" src="img/logo.png" id="logo"
+                            alt=""></a></div>
+                <div class="p-2 text-end">
+                    <div class="d-inline-block mx-3 compact align-middle">
+                        <span class="fontStyle1" style="color: #973e47">Ciesielski</span><span class="fontStyle1"> &
+                        </span><span class="fontStyle1" style="color: #25406e">Łaszkiewicz</span><br />
+                        <br />
+
+                        <span class="fontStyle1">STOMATOLOGIA</span><br />
+                        <span class="fontStyle3 ">+48 42 244 5009</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="logoR">
-          <div id="logoR1">STOMATOLOGIA</div>
-          <div id="logoR2">Ciesielski Łukasiewicz</div>
-        </div>
-        <div style="clear: both"></div>
-      </div>
-      <div id="nav">
-        <div id="options">
-          <div class="option"><a href="index.html">Home</a></div>
-          <div class="option"><a href="uslugi.html">Usługi</a></div>
-          <div class="option"><a href="galeria.html">Galeria</a></div>
-          <div class="option"><a href="kontakt.html">Kontakt</a></div>
-          <div style="clear: both"></div>
-        </div>
-      </div>
-      <div id="content">
-        kontakt
-      </div>
-      <div id="footer">stomatologia.com - Ciesielski Łukasiewicz &copy; 2023</div>
     </div>
-  </body>
+    <div class="bg-danger fontStyle2">
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#bottomNavbar"
+            class="btn btn-danger w-100 d-lg-none d-md-none d-sm-block d-xs-block rounded-0 p-2">
+            <i class="fas fa-bars me-2"></i> Menu</button>
+        <div class="collapse navbar-collapse px-2" id="bottomNavbar">
+            <div class="container">
+                <div class="d-flex justify-content-around align-items-center" id="removeFlex">
+                    <div class="flex-grow-1">
+                        <a href="index.html" class="d-inline-block customNav">Home</a>
+                        <a href="uslugi.html" class="d-inline-block customNav">Usługi</a>
+                        <a href="galeria.html" class="d-inline-block customNav">Galeria</a>
+                        <a href="kontakt.html" class="active d-inline-block customNav">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5 text-center">
+            <div class="col-4">
+                <span class="display-6 fontStyle1">Kontakt</span><br />
+                <span class="fontStyle3" style="white-space: nowrap;">+48 42 244 5009</span> <br/><br/>
+                <span  class="fontStyle3" ><a class="p-2" href="tel:782992107"  id="call-button">Połącz</a></span> <br />
+            </div>
+            <div class="col-4">
+                <span class="display-6 fontStyle1">Adres</span><br />
+                <span class="fontStyle3">ul. Sądecka 44</span> <br />
+                <span class="fontStyle3">92-014 Łódź</span> <br />
+                <span class="fontStyle3">Polska</span> <br />
+            </div>
+            <div class="col-4">
+                <span class="display-6 fontStyle1">Godziny otwarcia</span><br />
+                <span class="fontStyle3" style="white-space: nowrap;">pon.: 09:00-18:00</span> <br />
+                <span class="fontStyle3" style="white-space: nowrap;">wt.: 09:00-18:00</span> <br />
+                <span class="fontStyle3" style="white-space: nowrap;">śr.: 09:00-18:00</span> <br />
+                <span class="fontStyle3" style="white-space: nowrap;">czw.: 09:00-18:00</span> <br />
+                <span class="fontStyle3" style="white-space: nowrap;">pt.: 09:00-18:00</span> <br />
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="image-container">
+                <div class="col-12 text-center">
+                    <a target="_blank" id="action-list-2" class="dtKbfb  oYxtQd"
+                        href="https://www.google.com/maps/dir//%2751.782888,19.521399%27" data-tracking-element-type="5"
+                        jslog="// LINT.IfChange(PostCTAType)56039; track:impression,click" itemprop="hasMap"
+                        data-enable-ga="true" data-ga-prefix="action-list"><img class="img-fluid" src="img/sadecka.png"
+                            alt=""></a>
+
+                </div>
+                <a target="_blank" id="action-list-2" class="dtKbfb  oYxtQd"
+                href="https://www.google.com/maps/dir//%2751.782888,19.521399%27" data-tracking-element-type="5"
+                jslog="// LINT.IfChange(PostCTAType)56039; track:impression,click" itemprop="hasMap"
+                data-enable-ga="true" data-ga-prefix="action-list"><div class="centered fontStyle1 text-uppercase" style="color:black">
+                    <img class="img-fluid" src="img/sign-turn-right-fill.svg" id="sign-turn-right"/>
+                       Wyznacz trasę</div></a>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row mt-5 mb-3 py-1 text-center" style="background-color: #25406e; color: white">
+            <div class="col fontStyle3">
+                stomatologia.com - Ciesielski Łaszkiewicz © 2023
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
 </html>
